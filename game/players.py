@@ -1,7 +1,7 @@
 # blackjack_game/players.py
 # Consolidated from player.py, dealer.py, and strategy_helper.py
 
-from blackjack_game.settings import SETTINGS, PLAYER_SETTINGS, DEALER_SETTINGS
+from game.settings import SETTINGS, PLAYER_SETTINGS, DEALER_SETTINGS
 
 #################################################
 # Hand Class Definition
