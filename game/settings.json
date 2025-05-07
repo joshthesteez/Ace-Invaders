@@ -1,0 +1,26 @@
+{
+    "GAME_SETTINGS": {
+        "MAX_DECKS": 8,
+        "MIN_DECKS": 1,
+        "DEFAULT_CUT_CARD_PERCENT": 0.75,
+        "SHOW_HOUSE_EDGE": true,
+        "SHOW_HINTS": true
+    },
+    "PLAYER_SETTINGS": {
+        "MIN_BET": 1,
+        "MAX_BET": 1000,
+        "BET_INCREMENT": [
+            1,
+            2,
+            5,
+            10,
+            25,
+            50,
+            100
+        ]
+    },
+    "DEALER_SETTINGS": {
+        "DEALER_HIT_ON_SOFT_17": false,
+        "DEALER_STAND_ON_HARD_17": true
+    }
+}
