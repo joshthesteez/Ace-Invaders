@@ -1,0 +1,13 @@
+{
+    "name": "Player1",
+    "bankroll": 1000,
+    "xp": 0,
+    "stats": {
+        "hands_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "blackjacks": 0,
+        "splits": 0,
+        "doubles": 0
+    }
+}
