@@ -5,9 +5,9 @@ import time
 import json
 import os
 
-from blackjack_game.cards import Card, Deck, display_hand, render_multiple
-from blackjack_game.players import Player, Dealer, get_basic_strategy_move
-from blackjack_game.settings import SETTINGS, GAME_SETTINGS, PLAYER_SETTINGS
+from game.cards import Card, Deck, display_hand, render_multiple
+from game.players import Player, Dealer, get_basic_strategy_move
+from game.settings import SETTINGS, GAME_SETTINGS, PLAYER_SETTINGS
 
 #################################################
 # Table Class Definition
