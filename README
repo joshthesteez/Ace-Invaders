@@ -1,0 +1,75 @@
+# Ace Invaders - Blackjack Game
+
+This README outlines the structure of the Ace Invaders project after consolidation.
+
+## Project Structure
+
+```
+blackjack_game/
+├── main.py                  # Entry point
+├── settings.py              # All game settings (merged config.py + settings.py)
+├── cards.py                 # Card, Deck, and display functions (merged card.py + deck.py + ascii_art.py)
+├── players.py               # Player, Dealer, Hand, and strategy (merged player.py + dealer.py + strategy_helper.py)
+├── game_session.py          # Table and Game Session (merged gameplay.py + game_session.py + table.py)
+├── main_loop.py             # Main game loop and menus
+├── profile_manager.py       # Profile handling (moved from profiles/ folder)
+└── resources/               # Resources folder
+    ├── logo.txt             # ASCII logo
+    └── tables/              # Table configuration files
+        └── campaign/
+            └── table1.json  # Starter table configuration
+```
+
+## Key Components
+
+### `settings.py`
+- Centralized settings management
+- Default game settings and configuration options
+- Interactive settings menu
+
+### `cards.py`
+- Card class for representing playing cards
+- Deck class for managing the shoe of cards
+- ASCII art rendering for card display
+- Helper functions for displaying hands
+
+### `players.py`
+- Hand class for managing card hands
+- Player class for the human player
+- Dealer class for the automated dealer
+- Basic strategy helper functions
+
+### `game_session.py`
+- Table class for game rules and table settings
+- GameSession class for managing gameplay
+- Complete blackjack game logic
+- Table configuration loading
+
+### `profile_manager.py`
+- PlayerProfile class for player data
+- ProfileManager for saving/loading profiles
+
+### `main_loop.py`
+- Game menu system
+- Campaign mode implementation
+- UI and display functionality
+
+## How to Run
+
+From the project root directory:
+
+```
+python -m blackjack_game.main
+```
+
+Or simply:
+
+```
+python main.py
+```
+
+## Game Modes
+
+- **Campaign Mode**: Progress through increasingly difficult tables
+- **Sandbox Mode**: Customize game rules and play freely
+- **Settings**: Adjust game settings and preferences
