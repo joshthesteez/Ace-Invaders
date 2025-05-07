@@ -2,7 +2,7 @@
 # Consolidated from card.py, deck.py, and ascii_art.py
 
 import random
-from blackjack_game.settings import GAME_SETTINGS
+from game.settings import GAME_SETTINGS
 
 #################################################
 # Card Class Definition
