@@ -8,9 +8,9 @@ import msvcrt  # For Windows compatibility
 from colorama import init, Fore, Style
 from art import *
 
-from blackjack_game.profile_manager import ProfileManager, PlayerProfile
-from blackjack_game.settings import settings_menu
-from blackjack_game.game_session import GameSession, Table, load_table_from_json
+from game.profile_manager import ProfileManager, PlayerProfile
+from game.settings import settings_menu
+from game.game_session import GameSession, Table, load_table_from_json
 import json
 
 # Initialize colorama
