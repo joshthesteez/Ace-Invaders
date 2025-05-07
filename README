@@ -1,11 +1,11 @@
 # Ace Invaders - Blackjack Game
 
-This README outlines the structure of the Ace Invaders project after consolidation.
+This README outlines the structure of the Ace Invaders project as it stands
 
 ## Project Structure
 
 ```
-blackjack_game/
+game/
 ├── main.py                  # Entry point
 ├── settings.py              # All game settings (merged config.py + settings.py)
 ├── cards.py                 # Card, Deck, and display functions (merged card.py + deck.py + ascii_art.py)
